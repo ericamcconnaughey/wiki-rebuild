@@ -1,0 +1,23 @@
+.logo {
+  width: 150px;
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-column {
+  font-size: .9em;
+  background-color: #F6F6F6;
+  width: 170px;
+  float:left;
+}
+
+.uppernav {
+  float: right;
+}
+
+.mainnav {
+  float
+}
