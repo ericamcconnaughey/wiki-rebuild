@@ -18,6 +18,10 @@ li {
   float: right;
 }
 
+li.uppernav {
+  float: right;
+}
+
 .mainnav {
   float
 }
