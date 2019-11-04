@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: 
+}
+
 .logo {
   width: 150px;
   margin: 10px;
@@ -42,12 +46,29 @@ li {
 .search {
   float: right;
   position: static; 
+  margin-right: 10px;
 }
 
 .afternav {
   clear: right;
 }
 
-.main {
-  margin-left: 15em;
+.banner {
+  margin-left: 14em;
+  margin-top: 2em;
+  width: 80%;
+  height: 105px;
+  text-align: center;
+  line-height: 1.2rem;
+  background-color: #F6F6F6;
+  border: 1px lightgray solid;
+}
+
+.banner ul {
+  float: right;
+  display: inline-block;
+}
+
+.banner li {
+  list-style-type: circle;
 }
