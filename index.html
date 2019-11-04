@@ -3,30 +3,12 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Wikipedia</title>
+    <title>Wikipedia, the free encyclopedia</title>
   </head>
+  
   <body>
     
-    upper nav
-    <div class="uppernav flex-row">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Talk</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contributions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Create Account</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-          
-          
-    <div class="nav flex-column">
+    <nav class="nav flex-column">
       <img src="img/Screen Shot 2019-10-30 at 9.59.21 PM copy.png" alt="Wikipedia logo" class="logo">
       <br>
       <br>
@@ -137,11 +119,29 @@
           <a href="#">Wiktionary</a>
         </li>
       </ul>
+    </nav>
 
-    </div>
-      
-      nav bar
-      <ul class="nav nav-tabs mainnav">
+
+    <nav class="uppernav flex-row">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Log in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Create Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contributions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Talk</a>
+        </li>
+      </ul>
+    </nav>
+  
+          
+    <nav class="mainnav">
+      <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link" href="#">Main Page</a>
           </li>
@@ -157,10 +157,27 @@
           <li class="nav-item">
               <a class="nav-link" href="#">View history</a>
           </li>
-        </ul>
+          <li>
+            <form class="form-inline search">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search Wikipedia" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+      </ul>
+    </nav>
 
-      search box
+    <div class="afternav">
+    </div>
 
+    <div class="container main">
+      <h3>Welcome to <a hrf="#">Wikipedia</a>,</h3>
+      <p>the <a href="#">free</a> <a href="#">encyclopedia</a> that <a href="#">anyone can edit</a>.</p>
+      <p><a href="#">5,964,530</a> articles in <a href="#">English</a></p>
+    </div>
+
+          
+    
+  
     </div>
   </body>
 </html>

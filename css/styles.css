@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .logo {
   width: 150px;
   margin: 10px;
@@ -12,16 +16,38 @@ li {
   background-color: #F6F6F6;
   width: 170px;
   float:left;
+  clear: left;
+  position: static;
 }
 
 .uppernav {
   float: right;
+  width: 40%;
+  margin: 0;
 }
 
-li.uppernav {
+.uppernav li {
   float: right;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 .mainnav {
-  float
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  float: right;
+}
+
+.search {
+  float: right;
+  position: static; 
+}
+
+.afternav {
+  clear: right;
+}
+
+.main {
+  margin-left: 15em;
 }
