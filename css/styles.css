@@ -36,13 +36,12 @@ li {
 
 .uppernav li {
   float: right;
-  display: inline-block;
   font-size: 1.2rem;
   margin: 0;
 }
 
 .mainnav {
-  padding-top: 2rem;
+  padding-top: 1.4rem;
   font-size: 1.3rem;
   float: right;
 }
@@ -58,7 +57,7 @@ li {
 }
 
 .banner {
-  margin-left: 14em;
+  margin-left: 13.5em;
   margin-top: 2em;
   width: 80%;
   height: 105px;
@@ -66,13 +65,28 @@ li {
   line-height: 1.2rem;
   background-color: #F6F6F6;
   border: 1px lightgray solid;
+  position: relative;
+}
+
+.banner-left {
+  width: 40%;
+  float: left;
+}
+
+.banner-right {
+  float: right;
+  width: 40%;
+  height: 120px;
+  padding-top: 6px;
 }
 
 .banner ul {
-  float: right;
   display: inline;
 }
 
 .banner li {
   list-style-type: disc;
+  text-align: left;
+  line-height: 2.1rem;
+  font-size: 1.3rem;
 }
