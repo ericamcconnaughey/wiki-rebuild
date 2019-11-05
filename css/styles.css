@@ -6,6 +6,10 @@ a {
   color: 
 }
 
+.clear {
+  clear: all;
+}
+
 .logo {
   width: 150px;
   margin: 10px;
@@ -66,9 +70,9 @@ li {
 
 .banner ul {
   float: right;
-  display: inline-block;
+  display: inline;
 }
 
 .banner li {
-  list-style-type: circle;
+  list-style-type: disc;
 }
